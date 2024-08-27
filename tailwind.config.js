@@ -17,6 +17,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "language-gradient-radial": "linear-gradient(278deg, rgba(0,113,183,1) 0%, rgba(190,2,55,1) 100%);",
+        "phone-module-banner": "url('/images/phone/phone-module-banner.png')"
       },
       colors: {},
       fontSize: ({ theme }) => ({

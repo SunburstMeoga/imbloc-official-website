@@ -1,8 +1,19 @@
-
-import { Inter } from "next/font/google";
-
-export default function Home() {
-  return <div className="text-red-500 lg:text-blue-500 xl:text-green-500">
-    home page
-  </div>
+import React from 'react'
+import MenuBar from './menuBar'
+import Banner from './banner'
+import Swiper from './swiper'
+const Home = () => {
+  return (
+    <div>
+      <MenuBar></MenuBar>
+      <div className=''>
+        <Banner></Banner>
+      </div>
+      <div className=''>
+        <Swiper></Swiper>
+      </div>
+    </div>
+  )
 }
+
+export default Home
