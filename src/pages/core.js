@@ -1,7 +1,7 @@
 import React from 'react'
 const coreItems = [
-    { id: 1, title: 'Registration and authentication', content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has.', tips: 'Lorem Ipsum is simply dummy text ', img: '/images/phone/core-one.png' },
-    { id: 2, title: 'Profile management', content: 'Allows users to edit and manage personal information, including avatar, nickname, personal profile, etc.', tips: 'Lorem Ipsum is simply dummy text ', img: '/images/phone/core-two.png' },
+    { id: 1, title: 'Registration and authentication', content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has.', tips: 'Lorem Ipsum is simply dummy text', img: '/images/phone/core-one.png' },
+    { id: 2, title: 'Profile management', content: 'Allows users to edit and manage personal information, including avatar, nickname, personal profile, etc.', tips: '', img: '/images/phone/core-two.png' },
     { id: 3, title: 'Instant messaging', content: 'Supports real-time point-to-point or group chat function, users can send and receive instant messages.', tips: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has', img: '/images/phone/core-three.png' },
 
 ]
