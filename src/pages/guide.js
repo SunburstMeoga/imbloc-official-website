@@ -12,7 +12,7 @@ const Guide = () => {
             <div className='font-bold text-2-5 text-module-word leading-3-0 mb-2-0'>process</div>
             <div className='w-full px-2-3 flex flex-col justify-start items-center'>
                 {guideItems.map((item, index) => {
-                    return <div key={index} className='border-l-2 border-guide-border relative pb-2-0 flex flex-col justify-start items-start'>
+                    return <div key={index} className={` relative pb-2-0 flex flex-col justify-start items-start ${item.id !== 3 ? 'border-l-2 border-guide-border' : ''}`}>
                         <div className='absolute top-0-1 -left-1-9 w-3-9'>
                             <img src={item.stepImg} alt=''></img>
                         </div>

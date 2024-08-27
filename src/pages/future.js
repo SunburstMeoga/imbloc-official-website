@@ -14,7 +14,7 @@ const Future = () => {
         ));
     }
     return (
-        <div className='bg-reason-module flex flex-col justify-start items-center'>
+        <div className='bg-reason-module flex flex-col justify-start items-center pt-2-0'>
             <div className='flex justify-center w-full'>
                 <div className='bg-clip-text text-transparent bg-language-gradient-radial leading-2-2 text-center text-2-8 font-bold max-con max-w-fit'>Future</div>
             </div>
