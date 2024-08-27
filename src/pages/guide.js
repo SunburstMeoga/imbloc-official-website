@@ -20,7 +20,7 @@ const Guide = () => {
                             <div className='w-15-3 mb-1-4'>
                                 <img src={item.img}></img>
                             </div>
-                            <div className='text-1-5 font-bold mb-1-4'>{item.title}</div>
+                            <div className='text-1-5 font-bold mb-1-4 text-module-word'>{item.title}</div>
                             {item.terminal && item.terminal.length !== 0 && <div className='flex justify-start items-center mb-1-2'>
                                 {item.terminal.map((_item, _index) => {
                                     return <div key={_index} className='mr-1-2 rounded-full h-2-5 w-2-5 bg-guide-method  flex justify-center items-center tex-white'>
