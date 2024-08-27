@@ -20,7 +20,9 @@ module.exports = {
         "language-gradient-radial": "linear-gradient(278deg, rgba(0,113,183,1) 0%, rgba(190,2,55,1) 100%);",
         "phone-module-banner": "url('/images/phone/phone-module-banner.png')"
       },
-      colors: {},
+      colors: {
+        "module-white": "#D3D0DD",
+      },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),
       }),

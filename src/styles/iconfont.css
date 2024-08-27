@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 4650398 */
+    src: url('//at.alicdn.com/t/c/font_4650398_ysgv3lgegnc.woff2?t=1724771863381') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4650398_ysgv3lgegnc.woff?t=1724771863381') format('woff'),
+        url('//at.alicdn.com/t/c/font_4650398_ysgv3lgegnc.ttf?t=1724771863381') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+}
+
+.icon-pingguo:before {
+    content: "\e610";
+}
+
+.icon-windows:before {
+    content: "\e75e";
+}
+
+.icon-anzhuo:before {
+    content: "\e630";
+}
+
+.icon-emizhifeiji:before {
+    content: "\e649";
+}
+
+.icon-kongyun:before {
+    content: "\e638";
+}
+
+.icon-huojian:before {
+    content: "\e7c2";
+}
+
+.icon-rocket:before {
+    content: "\e7d9";
+}
+
+.icon-instagram-fill:before {
+    content: "\e88f";
+}
+
+.icon-discord:before {
+    content: "\f18d";
+}
+
+.icon-tuite:before {
+    content: "\e61d";
+}
+
+.icon-in:before {
+    content: "\e64d";
+}
+
+.icon-phone:before {
+    content: "\e618";
+}
+
+.icon-google-play:before {
+    content: "\ec04";
+}
+
+.icon-ethereum:before {
+    content: "\f19b";
+}
+
+.icon-ripple-xrp-logo:before {
+    content: "\e608";
+}
+
+.icon-a-bold-solana-sol:before {
+    content: "\e70b";
+}
+
+.icon-binance:before {
+    content: "\e67b";
+}
+
+.icon-Cardano:before {
+    content: "\e612";
+}
+
+.icon-bitebi:before {
+    content: "\e602";
+}
