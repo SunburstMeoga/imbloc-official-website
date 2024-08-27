@@ -1,13 +1,25 @@
 @font-face {
     font-family: "iconfont";
     /* Project id 4650398 */
-    src: url('//at.alicdn.com/t/c/font_4650398_ysgv3lgegnc.woff2?t=1724771863381') format('woff2'),
-        url('//at.alicdn.com/t/c/font_4650398_ysgv3lgegnc.woff?t=1724771863381') format('woff'),
-        url('//at.alicdn.com/t/c/font_4650398_ysgv3lgegnc.ttf?t=1724771863381') format('truetype');
+    src: url('//at.alicdn.com/t/c/font_4650398_7c13vw54biv.woff2?t=1724784951055') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4650398_7c13vw54biv.woff?t=1724784951055') format('woff'),
+        url('//at.alicdn.com/t/c/font_4650398_7c13vw54biv.ttf?t=1724784951055') format('truetype');
 }
 
 .iconfont {
     font-family: "iconfont" !important;
+    /* font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+
+.icon-up:before {
+    content: "\e611";
+}
+
+.icon-right:before {
+    content: "\e6b8";
 }
 
 .icon-pingguo:before {
