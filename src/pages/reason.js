@@ -12,7 +12,7 @@ const Reason = () => {
             <div className='flex justify-start w-full mb-1-5'>
                 <div className='bg-clip-text text-transparent bg-language-gradient-radial w-full px-2-8 text-2-8 font-bold max-con max-w-fit'>IMbloc</div>
             </div>
-            <div className='w-23-0 aspect-w-1 aspect-h-1 bg-white rounded-full flex items-center justify-center mb-2-8'>
+            <div className='w-full aspect-w-1 aspect-h-1 bg-white rounded-full flex items-center justify-center mb-2-8'>
                 <div className=' flex justify-center items-center '>
                     <img src='/images/phone/reason-banner.png' className=' w-20-9'></img>
                 </div>
