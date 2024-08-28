@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                 })}
             </div>
-            <div className='w-full px-2-4 flex justify-between items-center mb-3-2'>
+            <div className='w-full px-2-4 flex justify-between items-center mb-3-2  lg:w-26-2'>
                 {socialItems.map((item, index) => {
                     return <div key={index} className={`text-2-4 icon iconfont text-white ${item.icon}`}></div>
                 })}
