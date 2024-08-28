@@ -7,7 +7,7 @@ const advantageItems = [
 ]
 const Advantage = () => {
     return (
-        <div className='w-full flex justify-between items-center flex-row flex-wrap px-2-7'>
+        <div className='w-full flex justify-between items-center flex-row flex-wrap px-2-7 lg:px-6-6'>
             {advantageItems.map((item, index) => {
                 return <div key={index} className={`flex flex-col justify-start items-center w-8-7 ${item.id !== 2 || item.id !== 1 ? 'mb-1-8' : ''}`}>
                     <div className='w-3-6 h-3-6 rounded-full bg-white flex justify-center items-center mb-0-1'>

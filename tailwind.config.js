@@ -19,6 +19,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "language-gradient-radial": "linear-gradient(278deg, rgba(0,113,183,1) 0%, rgba(190,2,55,1) 100%);",
         "phone-module-banner": "url('/images/phone/phone-module-banner.png')",
+        "pad-module-banner": "url('/images/pad/pad-module-banner.png')",
         "core-items": "linear-gradient(225deg, rgba(190,2,55,1) 0%, rgba(0,113,183,1) 100%);",
         "title-gradient-radial": "linear-gradient(90deg, rgba(190,2,55,1) 0%, rgba(0,113,183,1) 100%);",
         "future-item": "url('/images/phone/future-item.png')",

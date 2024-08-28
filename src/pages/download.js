@@ -5,9 +5,9 @@ const downloadItems = [
 ]
 const Download = () => {
     return (
-        <div className='w-full flex flex-col justify-start items-center px-2-8'>
+        <div className='w-full flex flex-col justify-start items-center px-2-8 lg:flex-row lg:justify-between lg:px-18-8'>
             {downloadItems.map((item, index) => {
-                return <div key={index} className={`bg-language-gradient-radial rounded-xl w-full h-5-1  flex justify-center  items-center text-white ${item.id === 1 ? 'mb-0-9' : ''}`}>
+                return <div key={index} className={`bg-language-gradient-radial rounded-xl w-full h-5-1 flex justify-center  items-center text-white ${item.id === 1 ? 'mb-0-9 lg:mb-auto' : ''} lg:w-12-3 lg:h-4-0`}>
                     <div className={`icon iconfont mr-1-0 text-2-0 ${item.icon}`}></div>
                     <div className='h-2-2 flex flex-col justify-center'>
                         <div className='text-0-8'>{item.content}</div>

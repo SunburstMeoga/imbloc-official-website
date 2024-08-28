@@ -11,18 +11,18 @@ import Future from './future'
 import Footer from './footer'
 const Home = () => {
   return (
-    <div className='bg-module-white'>
+    <div className='bg-reason-module'>
       <MenuBar></MenuBar>
       <div className=''>
         <Banner></Banner>
       </div>
-      <div className='-mt-7-6 mb-1-5'>
+      <div className='-mt-7-6 mb-1-5 lg:-mt-13-2 lg:mb-5-0'>
         <Swiper></Swiper>
       </div>
-      <div className='mb-3-9'>
+      <div className='mb-3-9 lg:mb-5-2'>
         <Download></Download>
       </div>
-      <div className='mb-2-8'>
+      <div className='mb-2-8 '>
         <Advantage></Advantage>
       </div>
       <div className=''>

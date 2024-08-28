@@ -2,13 +2,12 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <div className='w-full bg-no-repeat bg-cover bg-phone-module-banner pt-11-5 flex flex-col justify-start items-center text-white  h-42-0'>
-            <div className='px-2-8 text-2-5 text-center font-bold leading-2-8 mb-1-6'>
-                Free, Secure & Decentralized
-                Chat Platform
+        <div className='w-full bg-no-repeat bg-cover bg-phone-module-banner pt-11-5 flex flex-col justify-start items-center text-white  h-42-0 lg:bg-pad-module-banner lg:h-40-5 lg:pt-10-8'>
+            <div className='px-2-8 text-2-5 text-center font-bold leading-2-8 mb-1-6 lg:text-3-0 lg:leading-3-2 lg:px-9-8 lg:mb-2-3'>
+                Free, Secure & Decentralized Chat Platform
             </div>
-            <div className='text-1-5 text-center leading-2-0 w-full font-medium'>
-                Lorem Ipsum is simply <br></br> dummy text of the printing <br></br> and setting indus orem <br></br> Ipsum has been the <br></br> industrys  standard <br></br> dummy text ever.
+            <div className='text-1-5 text-center leading-2-0 w-full font-medium lg:text-1-2 lg:leading-1-6'>
+                Lorem Ipsum is simply <br className='lg:hidden'></br> dummy text <br className='hidden lg:block'></br> of the printing <br className='lg:hidden'></br> and setting indus orem <br className='lg:hidden'></br> Ipsum has <br className='hidden lg:block'></br> been the <br className='lg:hidden'></br> industrys  standard <br className='lg:hidden'></br> dummy text ever.
             </div>
         </div>
     )
