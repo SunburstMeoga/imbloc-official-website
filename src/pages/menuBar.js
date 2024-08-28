@@ -3,7 +3,7 @@ import React from 'react'
 const MenuBar = () => {
     return (
         <div className='w-full fixed top-auto z-50'>
-            <div className='w-full bg-white h-4-5 pl-0-5 pr-1-9 flex justify-between items-center lg:h-8-4 lg:bg-transparent'>
+            <div className='w-full bg-white h-4-5 pl-0-5 pr-1-9 flex justify-between items-center lg:h-8-4 lg:bg-transparent xl:h-6-4'>
                 <div className='w-7-9 lg:w-9-8'>
                     <img src='/images/phone/logo.png'></img>
                 </div>
