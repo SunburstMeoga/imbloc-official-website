@@ -19,7 +19,9 @@ const Reason = () => {
                     <img src='/images/phone/reason-banner.png' className='w-20-9 lg:w-24-8'></img>
                 </div>
             </div> */}
-            <div className='w-23-0 h-23-0 border border-red-500 rounded-full mb-2-8 lg:order-3 lg:-mt-10-0 lg:w-31-0 lg:h-31-7'></div>
+            <div className=' flex justify-center items-center w-23-0 h-23-0 rounded-full mb-2-8 lg:order-3 lg:-mt-10-0 lg:w-31-0 lg:h-31-7'>
+                <img src='/images/phone/reason-banner.png' className='w-20-9 lg:w-24-8'></img>
+            </div>
             <div className='flex flex-col justify-start items-center px-1-7 lg:order-2 lg:px-3-8 lg:mt-2-0'>
                 {reasonItems.map((item, index) => {
                     return <div key={index} className='flex justify-between items-start w-full mb-2-7'>

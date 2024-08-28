@@ -19,7 +19,7 @@ const Footer = () => {
                         <img src='/images/phone/logo-white.png'></img>
                     </div>
                 </div>
-                <div className='px-2-4 w-full text-white text-1-5 leading-1-8 mb-1-5 lg:mb-auto lg:mt-2-0 lg:text-right lg:font-bold'>Let's Try Out</div>
+                <div className='px-2-4 w-full text-white text-1-5 leading-1-8 mb-1-5  lg:mt-2-0 lg:text-right lg:font-bold'>Let's Try Out</div>
             </div>
             <div className='w-full flex flex-col justify-start items-center px-2-8 mb-11-2 lg:items-end lg:mb-2-0'>
                 {downloadItems.map((item, index) => {
@@ -37,7 +37,7 @@ const Footer = () => {
                     return <div key={index} className={`text-2-4 icon iconfont text-white ${item.icon}`}></div>
                 })}
             </div>
-            <div className='w-full bg-language-gradient-radial h-4-8 text-white text-1-0 flex justify-center items-center lg:justify-between lg:px-3-8'>
+            <div className='w-full bg-language-gradient-radial h-4-8 text-white text-1-0 flex justify-center items-center lg:justify-between lg:px-3-8 lg:h-7-0'>
                 <div className='lg:order-2'>Design & developed by Link Here</div>
                 <div className='hidden lg:block lg:order-1'>© Copyrights 2024. All rights reserved.</div>
             </div>
