@@ -39,7 +39,7 @@ const Guide = () => {
                         </div>
                     })}
                 </div>
-                <div className='hidden lg:flex lg:justify-between items-start px-2-3 pt-7-2'>
+                <div className='hidden lg:flex lg:justify-between items-start pt-7-2'>
                     <div className='w-22-5 flex flex-col justify-start items-end mt-0-4'>
                         <div className='text-1-5 font-bold mb-1-4 text-module-word'>Safe and reliable</div>
                         <div className='flex justify-start items-center mb-1-2'>
