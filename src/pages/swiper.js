@@ -45,8 +45,11 @@ const SwiperCard = () => {
           ))}
         </Swiper>
       </div>
-      <div className='hidden lg:flex lg:justify-center lg:items-center lg:px-2-0'>
+      <div className='hidden lg:flex lg:justify-center lg:items-center lg:px-2-0 xl:hidden'>
         <img src="/images/pad/pad-slider-banner.png" alt=''></img>
+      </div>
+      <div className='hidden xl:flex xl:justify-center xl:items-center lg:px-13-2'>
+        <img src="/images/pc/pc-slider-banner.png" alt=''></img>
       </div>
     </>
   );

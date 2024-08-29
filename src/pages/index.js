@@ -16,10 +16,10 @@ const Home = () => {
       <div className=''>
         <Banner></Banner>
       </div>
-      <div className='-mt-7-6 mb-1-5 lg:-mt-13-2 lg:mb-5-0'>
+      <div className='-mt-7-6 mb-1-5 lg:-mt-13-2 lg:mb-5-0 xl:-mt-20-1 xl:mb-2-4'>
         <Swiper></Swiper>
       </div>
-      <div className='mb-3-9 lg:mb-5-2'>
+      <div className='mb-3-9 lg:mb-5-2 xl:mb-6-1'>
         <Download></Download>
       </div>
       <div className='mb-2-8 '>

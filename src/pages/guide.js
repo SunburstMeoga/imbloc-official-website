@@ -8,7 +8,7 @@ const terminalItems = ['icon-anzhuo', 'icon-pingguo', 'icon-windows']
 const Guide = () => {
     return (
         <>
-            <div className='pt-3-7 flex flex-col justify-start items-center bg-reason-module '>
+            <div className='pt-3-7 flex flex-col justify-start items-center bg-reason-module xl:pt-4-2'>
                 <div className='flex flex-col justify-start items-center text-2-5 font-bold  lg:flex-row '>
                     <div className='max-w-fit bg-clip-text text-transparent bg-language-gradient-radial leading-3-0'>User guide and</div>
                     <div className='text-module-word leading-3-0 lg:ml-1-0'>registration</div>

@@ -14,7 +14,7 @@ const Future = () => {
         ));
     }
     return (
-        <div className='bg-reason-module flex flex-col justify-start items-center pt-2-0 '>
+        <div className='bg-reason-module flex flex-col justify-start items-center pt-2-0 xl:w-74-8 xl:mx-auto'>
             <div className='text-center text-2-8 font-bold  lg:flex lg:justify-center lg:items-center lg:mb-4-8'>
                 <div className='flex justify-center w-full'>
                     <div className='bg-clip-text text-transparent bg-language-gradient-radial leading-2-2  max-con max-w-fit'>Future</div>
@@ -23,7 +23,7 @@ const Future = () => {
             </div>
             <div className='w-full px-2-8 flex flex-col justify-start items-center lg:px-1-3 lg:flex-row lg:justify-between lg:items-center'>
                 {futureList.map((item, index) => {
-                    return <div key={index} onClick={() => handleShowMore(item.id)} className={`bg-white w-full py-3-3 flex flex-col justify-start items-center rounded-3xl transition  duration-300 overflow-hidden mb-1-7 border-4 ${item.showMore ? ' border-module-word active:bg-slate-200' : 'border-transparent'} lg:w-19-6 lg:h-51-0 lg:mb-5-8`}>
+                    return <div key={index} onClick={() => handleShowMore(item.id)} className={`cursor-pointer bg-white w-full py-3-3 flex flex-col justify-start items-center rounded-3xl transition  duration-300 overflow-hidden mb-1-7 border-4 ${item.showMore ? ' border-module-word active:bg-slate-200' : 'border-transparent'} lg:w-19-6 lg:h-51-0 lg:mb-5-8 xl:w-22-6`}>
                         <div className='w-8-3 h-8-3 bg-no-repeat bg-future-item flex justify-center items-center mb-3-0 '>
                             <div className={`icon iconfont  text-3-2 -mt-0-9 transition  duration-300 ${item.showMore ? 'bg-clip-text text-transparent bg-language-gradient-radial' : 'text-black'} ${item.icon} ${item.id === 1 ? 'rotate-45' : ''}`}></div>
                         </div>
@@ -32,7 +32,7 @@ const Future = () => {
                             <div className={`icon iconfont icon-up bg-clip-text text-transparent bg-language-gradient-radial text-2-0 transition  duration-300 ${!item.showMore ? 'rotate-180' : 'rotate-0'}`}></div>
                         </div>
                         {item.showMore && <div className='text-module-word text-1-0 leading-2-0 font-medium w-14-8 text-center mt-1-6 lg:hidden'>{item.content}</div>}
-                        <div className='hidden  text-module-word text-1-0 leading-2-0 font-medium w-14-8 text-center mt-1-6 lg:block'>{item.content}</div>
+                        <div className='hidden  text-module-word text-1-0 leading-2-0 font-medium w-14-8 text-center mt-1-6 lg:block xl:w-18-6'>{item.content}</div>
                     </div>
                 })}
             </div>

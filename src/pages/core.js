@@ -7,17 +7,17 @@ const coreItems = [
 ]
 const Core = () => {
     return (
-        <div className='w-full bg-white pt-3-6 rounded-3xl flex flex-col justify-start items-center text-module-word lg:rounded-none lg:pt-2-7'>
-            <div className='flex flex-col justify-start items-center lg:flex-row text-2-5 lg:text-2-8 lg:justify-center'>
+        <div className='w-full bg-white pt-3-6 rounded-3xl flex flex-col justify-start items-center text-module-word lg:rounded-none lg:pt-2-7 xl:pt-5-4  xl:rounded-3xl xl:w-85-6 xl:mx-auto'>
+            <div className='flex flex-col justify-start items-center lg:flex-row text-2-5 lg:text-2-8 lg:justify-center xl:mb-1-0'>
                 <div className='bg-clip-text text-transparent bg-language-gradient-radial font-bold'>IMbloc</div>
                 <div className='font-bold mb-1-0 lg:mb-auto lg:ml-1-0'>core functions</div>
             </div>
             <div className='w-full px-2-0 text-1-2 text-center  mb-3-0 lg:text-1-5 lg:px-5-7'>
                 Lorem Ipsum is simply dummy <br className='lg:hidden'></br> text of the printing and typese <br></br> tting indus orem Ipsum has <br className='lg:hidden'></br> beenthe standard dummy.
             </div>
-            <div className='w-full px-3-4 flex flex-col justify-start items-center lg:px-1-2 lg:flex-row lg:justify-between'>
+            <div className='w-full px-3-4 flex flex-col justify-start items-center lg:px-1-2 lg:flex-row lg:justify-between xl:px-4-0'>
                 {coreItems.map((item, index) => {
-                    return <div key={index} className='rounded-2xl overflow-hidden w-full mb-3-0 lg:w-19-4 lg:mb-4-6' >
+                    return <div key={index} className='rounded-2xl overflow-hidden w-full mb-3-0 lg:w-19-4 lg:mb-4-6 xl:w-22-6' >
                         <div className='bg-core-items w-full h-19-4 flex justify-center items-center relative'>
                             <div className='absolute w-full h-19-4 bg-white078'></div>
                             <div className='w-full h-19-4 flex flex-col justify-end items-center relative z-10'>
