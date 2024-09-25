@@ -40,8 +40,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-full bg-language-gradient-radial'>
-                <div className=' h-4-8 text-white text-1-0 flex justify-center items-center lg:justify-between lg:px-3-8 lg:h-7-0 xl:px-0-1 xl:w-74-8 xl:mx-auto'>
-                    <div className='lg:order-2'>Design & developed by Link Here</div>
+                <div className=' text-white text-1-0 flex justify-center items-center lg:justify-between lg:px-3-8 lg:h-7-0 xl:px-0-1 xl:w-74-8 xl:mx-auto'>
+                    {/* <div className='lg:order-2'>Design & developed by Link Here</div> */}
                     <div className='hidden lg:block lg:order-1'>© Copyrights 2024. All rights reserved.</div>
                 </div>
                 <div className='w-full h-4-8 text-white text-1-0 flex justify-center items-center lg:hidden'>© Copyrights 2024. All rights reserved.</div>
